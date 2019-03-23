@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    padding : 0;
+}
+.main {
+    position: absolute;
+    top : 0;
+    width : 100%;
+    height: 100%;
+}
+.google-logo {
+    margin-top: 10em;
+    text-align: center;
+    margin-bottom: 5em;
+}
+.google-logo img {
+    width: 70%;
+    height: auto;
+}
+
+.search-bar-outer{
+    position: relative;
+    text-align: center;
+    bottom: 150px;
+       
+}
+.search-bar-outer input{
+    height: 50px;
+    width: 520px;
+    border-radius: 25px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 2px 3px #ddd; 
+}
+.buttons {
+    position: relative;
+    text-align: center;
+    bottom: 40px;
+}
+.buttons button{
+    margin-left: 8px;
+    height: 38px;
+    padding: 0 20px;
+    background-color: #eee;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 13px;
+    color: #757575;
+    border: 1px solid #eee;
+    font-weight: 600;
+} 
+.SignInButton {
+    position: relative;
+    text-align: right;
+    bottom: 590px;
+    right: 30px;
+}
+.SignInButton button{
+    color: #fff;
+	background-color: #4285f4;
+    border: 1px solid #4285f4;
+    width: 70px;
+    height: 30px;
+    font-family: Arial;
+    font-weight: 550;
+    font-size: 13px;   
+}
+.app-logo{
+    position: relative;
+    bottom: 613px;
+    text-align: right;
+    right:120px;
+}
+.app-logo img{
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+.img-gm{
+    position: relative; 
+    text-align: right;
+    right: 160px;
+    bottom: 635px;
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: 100;
+}
+.img-gm li{
+    display: inline;
+    padding: 4px;
+    cursor: pointer;   
+}
+.img-gm li:hover{
+    text-decoration-line: underline;   
+}
+.bottom-left{
+    position: relative;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 150px;
+    bottom: -5px;
+    left: 25px;   
+    color: #757575;
+    
+}
+.bottom-left li{
+    display: inline;
+    padding: 10px;
+    cursor: pointer;
+}
+.bottom-left li:hover{
+    text-decoration-line: underline;
+}
+.bottom-right {
+    position: relative; 
+    text-align: right;
+    font-size: 12px;
+    font-weight: 150px;
+    bottom: 25px;
+    right: 19px;
+    color: #757575;
+    
+}
+.bottom-right li{
+    display: inline;
+    padding: 10px;
+    cursor: pointer;
+}
+.bottom-right li:hover{
+    text-decoration-line: underline;
+}
+
+.footer{
+    background-color: #eee;
+    line-height: 30px;
+    padding: 0em 1em;
+    opacity: 0.75;
+    width: 100%;
+}
